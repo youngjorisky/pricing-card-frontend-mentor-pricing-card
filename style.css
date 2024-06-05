@@ -1,0 +1,103 @@
+ body {
+      padding: 200px;
+      font-family: "Roboto", sans-serif;
+      color: #E1E8E7;
+      background-color: 
+        #ECF0EF;
+    }
+    .everything {
+      position: relative;
+    }
+    .large-box {
+  border: 15px solid white;
+  height: 170px;
+  width: 570px;
+  background-color: white;
+  border-radius: 3.5px;
+  position: relative;
+  margin-bottom: 0px; /* Adjusted margin to reduce the gap */
+}
+      height: 170px;
+      width: 570px;
+      background-color: white;
+      border-radius: 3.5px;
+      position: relative;
+      margin-bottom: 20px;
+    }
+    .text-position {
+      position: absolute;
+      left: 40px;
+    }
+    .container {
+      display: flex;
+      height: 250px;
+      width: 600px; /* Ensure container width matches large-box width */
+    }
+    .box-1, .box-2 {
+      background-color: #1FC0C3;
+      border-radius: 3.5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 25px;
+    }
+    .box-1 {
+      flex: 1; /* Adjust the flex-grow property */
+      background-color: #1FC0C3;
+    }
+    .box-2 {
+      flex: 2; /* Adjust the flex-grow property */
+      background-color: #1FC0C3;
+      opacity: 0.78;
+      padding-bottom: 65px;
+    }
+    h2 {
+      color: #63DDE5;
+    }
+    #different {
+      color: #C3EA67;
+    }
+    h4 {
+      color: #DADDDF;
+    }
+    #why {
+      color: #E1E8E7;
+      margin-left: 0px;
+    }
+    #monthly {
+      font-weight: bold;
+    }
+    #dollars {
+      font-size: 3em;
+      font-weight: bold;
+    }
+    .align {
+      opacity: 0.9;
+      font-weight: bold;
+    }
+    button {
+      width: 18em;
+      padding: 15px;
+      border: none;
+      cursor: pointer;
+      background-color: #C3EA67;
+      border-radius: 20px;
+    }
+    .my-table {
+      display: table;
+      margin-left: 0px; /* Adjusted to keep the text centered in box */
+    }
+    .my-cell {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .large-text {
+      font-size: 40px;
+    }
+    .small-text {
+      font-size: 20px;
+      opacity: 0.75;
+    }
+    #access, #tutorials, button {
+      margin-left: 0px; /* Adjusted to keep the text centered in box */
+    }
